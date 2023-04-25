@@ -5,7 +5,7 @@ import { ProductList } from "./components/sections/ProductList";
 
 const Home = () => {
   return (
-    <main>
+    <main className="grid gap-10 md:gap-24">
       <Banner
         imgHeight="300px"
         imgSrc="/images/homePageImg.png"

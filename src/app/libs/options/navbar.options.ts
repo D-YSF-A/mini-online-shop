@@ -1,34 +1,35 @@
 export const navBarOptions = [
   {
-    link: "/",
-    text: "Home",
+    name: "Home",
+    href: "#",
+    // href: "/",
   },
   {
-    link: "/all",
-    text: "All Products",
+    name: "Marketplaces",
+    href: "#",
+    // href: "/all",
+  },
+  // {
+  //   name: "Contact",
+  //   href: "/contact",
+  // },
+  // {
+  //   name: "FAQ",
+  //   href: "/faq",
+  // },
+  {
+    name: "Store Policies",
+    href: "#",
+    // href: "/policies",
   },
   {
-    link: "/contact",
-    text: "Contact",
+    name: "Plans & Pricing",
+    href: "#",
+    // href: "/pricing",
   },
   {
-    link: "/faq",
-    text: "FAQ",
-  },
-  {
-    link: "/policies",
-    text: "Store Policies",
-  },
-  {
-    link: "/shop",
-    text: "Shop",
-  },
-  {
-    link: "/pricing",
-    text: "Plans & Pricing",
-  },
-  {
-    link: "/use-instructions",
-    text: "How to buy?",
+    name: "How to buy?",
+    href: "#",
+    // href: "/use-instructions",
   },
 ];

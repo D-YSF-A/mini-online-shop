@@ -8,7 +8,7 @@ interface Props {
 
 export const Banner = (bannerProps: Props) => {
   return (
-    <div className={`w-full h-[350px] relative`}>
+    <div className={`w-full h-[450px] relative`}>
       <Image
         src={bannerProps.imgSrc}
         alt={bannerProps.imgAlt}

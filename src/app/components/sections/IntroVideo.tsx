@@ -1,6 +1,6 @@
 export const IntroVideo = () => {
   return (
-    <div className="flex justify-center text-sm text-gray-500 py-10">
+    <div className="flex justify-center text-sm text-gray-500 pb-10 md:pb-24">
       <video
         src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
         controls={true}
