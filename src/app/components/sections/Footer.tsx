@@ -9,16 +9,16 @@ const Footer = () => {
         imgAlt="footer image"
       />
       <h1 className="text-center font-bold tracking-tight text-gray-800 text-4xl">
-        GET IN TOUCH
+        JAVITE SE
       </h1>
       <h6 className="text-sm text-center tracking-tight text-gray-700 font-light">
-        500 Terry Francois Street, 6th Floor. San Francisco, CA 94158
+        Dobrinjska bb, Sarajevo, BiH
       </h6>
       <h6 className="text-sm text-center tracking-tight text-gray-700 font-light">
-        info@mysite.com
+        info@koleto.com
       </h6>
       <h6 className="text-sm text-center tracking-tight text-gray-700 font-light">
-        123-456-7890
+        +387 60 12 34 567
       </h6>
     </footer>
   );

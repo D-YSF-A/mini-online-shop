@@ -1,11 +1,11 @@
 export const navBarOptions = [
   {
-    name: "Home",
+    name: "Početna",
     href: "#",
     // href: "/",
   },
   {
-    name: "Marketplaces",
+    name: "Radnje",
     href: "#",
     // href: "/all",
   },
@@ -18,17 +18,17 @@ export const navBarOptions = [
   //   href: "/faq",
   // },
   {
-    name: "Store Policies",
+    name: "Pravila Trgovine",
     href: "#",
     // href: "/policies",
   },
   {
-    name: "Plans & Pricing",
+    name: "Pretplate i Cijene",
     href: "#",
     // href: "/pricing",
   },
   {
-    name: "How to buy?",
+    name: "Kako Kupiti?",
     href: "#",
     // href: "/use-instructions",
   },
