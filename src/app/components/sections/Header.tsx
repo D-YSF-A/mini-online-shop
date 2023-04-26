@@ -1,24 +1,29 @@
-// import { navBarOptions } from "@/app/libs/options/navbar.options";
-import { NewNavBar } from "../elements/NavBar/NewNavBar";
-// import Image from "next/image";
-// import { NavBar } from "../elements/NavBar/NavBar";
+"use client";
+
+import { useState } from "react";
+import BurgerMenu from "../elements/NavBar/BurgerMenu";
+import Logo from "../elements/NavBar/Logo";
+import MobileMenuDialog from "../elements/NavBar/MobileMenuDialog";
+import NavBarOptions from "../elements/NavBar/NavBarOptions";
 
 const Header = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <>
-      {/* <header className="flex flex-col items-center bg-white shadow-sm">
-        <div className="h-[150px] w-full relative top-0">
-          <Image
-            src={"/images/lightLogo.png"}
-            alt={"logo"}
-            fill
-            className="object-contain"
-          />
-        </div>
-      </header> */}
-      {/* <NavBar tabs={navBarOptions} /> */}
-      <NewNavBar />
-    </>
+    <header className="bg-white sticky top-0 z-10 h-[76px] pt-1 border-b-[1px]">
+      <nav
+        className="mx-auto flex items-center justify-between pr-2.5 lg:pr-6 "
+        aria-label="Global"
+      >
+        <Logo />
+        <BurgerMenu setMobileMenuOpen={setMobileMenuOpen} />
+        <NavBarOptions />
+      </nav>
+      <MobileMenuDialog
+        mobileMenuOpen={mobileMenuOpen}
+        setMobileMenuOpen={setMobileMenuOpen}
+      />
+    </header>
   );
 };
 

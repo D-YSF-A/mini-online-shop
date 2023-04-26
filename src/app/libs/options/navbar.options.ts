@@ -1,35 +1,40 @@
 export const navBarOptions = [
   {
     name: "Početna",
-    href: "#",
+    current: true,
+    href: "/",
     // href: "/",
   },
   {
     name: "Radnje",
-    href: "#",
-    // href: "/all",
+    current: false,
+    href: "/shops",
   },
   // {
   //   name: "Contact",
+  // current: false,
   //   href: "/contact",
   // },
   // {
   //   name: "FAQ",
+  // current: false,
   //   href: "/faq",
   // },
-  {
-    name: "Pravila Trgovine",
-    href: "#",
-    // href: "/policies",
-  },
+  // {
+  //   name: "Pravila Trgovine",
+  //   current: false,
+  //   href: "#",
+  //   // href: "/policies",
+  // },
   {
     name: "Pretplate i Cijene",
-    href: "#",
-    // href: "/pricing",
+    current: false,
+    href: "/pricing",
   },
-  {
-    name: "Kako Kupiti?",
-    href: "#",
-    // href: "/use-instructions",
-  },
+  // {
+  //   name: "Kako Kupiti?",
+  //   current: false,
+  //   href: "#",
+  //   // href: "/use-instructions",
+  // },
 ];

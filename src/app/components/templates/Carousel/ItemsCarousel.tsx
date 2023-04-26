@@ -1,7 +1,23 @@
+import { CustomScreenSizes } from "@/app/libs/helpers/html.helper";
 import { shops } from "@/app/libs/options/shops.options";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Card } from "../../elements/Card/Card";
+
+const getItemsPerPage = () => {
+  const windowWidth = window.innerWidth;
+  if (windowWidth < CustomScreenSizes.EXTRA_SMALL) {
+    return 1;
+  } else if (windowWidth < CustomScreenSizes.SMALL) {
+    return 2;
+  } else if (windowWidth < CustomScreenSizes.MEDIUM) {
+    return 3;
+  } else if (windowWidth < CustomScreenSizes.LARGE) {
+    return 4;
+  } else {
+    return 5;
+  }
+};
 
 const ItemsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,21 +25,6 @@ const ItemsCarousel = () => {
 
   const itemWidth = 250;
   const containerWidth = itemWidth * itemsPerPage;
-
-  const getItemsPerPage = () => {
-    const windowWidth = window.innerWidth;
-    if (windowWidth < 660) {
-      return 1;
-    } else if (windowWidth < 1050) {
-      return 2;
-    } else if (windowWidth < 1250) {
-      return 3;
-    } else if (windowWidth < 1480) {
-      return 4;
-    } else {
-      return 5;
-    }
-  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -61,6 +62,12 @@ const ItemsCarousel = () => {
             />
           </button>
         )}
+        {/* <PreviousNextButton
+          shouldShow={currentIndex > 0}
+          onClick={handleClickPrev}
+          imageSrc="/images/rightArrowIcon.png"
+          imageAlt="Next image"
+        /> */}
       </div>
       <div className="flex overflow-x-hidden">
         <div

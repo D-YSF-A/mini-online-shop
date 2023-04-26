@@ -13,7 +13,7 @@ export const Card = (itemProps: Props) => {
       <div className="w-[230px] h-[230px] flex items-center overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75">
         <Image
           src={imageSrc}
-          alt={itemProps.name + " Logo"}
+          alt={`${itemProps.name} Logo`}
           width={250}
           height={250}
         />

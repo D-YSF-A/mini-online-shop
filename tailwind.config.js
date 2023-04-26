@@ -7,5 +7,8 @@ module.exports = {
   transitionProperty: {
     transform: "transform",
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/forms"),
+  ],
 };

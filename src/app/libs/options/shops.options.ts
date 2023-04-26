@@ -1,8 +1,10 @@
+import { ShopsCatagoreis } from "../helpers/catagories.helpers";
+
 export const shops = [
   {
     id: 1,
     name: "ADIDAS",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.adidas.com.tr/en",
     imgUrl: "https://www.adidas.com",
     joinUrl: "",
@@ -10,7 +12,7 @@ export const shops = [
   {
     id: 2,
     name: "NIKE",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.nike.com/tr/",
     imgUrl: "https://www.nike.com",
     joinUrl:
@@ -19,7 +21,7 @@ export const shops = [
   {
     id: 3,
     name: "PUMA",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://tr.puma.com/",
     imgUrl: "https://tr.puma.com/",
     joinUrl: "https://tr.puma.com/customer/account/login/",
@@ -27,7 +29,7 @@ export const shops = [
   {
     id: 4,
     name: "REEBOK",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.reebok.com.tr/",
     imgUrl: "https://www.reebok.com",
     joinUrl: "https://www.reebok.com.tr/uye",
@@ -35,7 +37,7 @@ export const shops = [
   {
     id: 5,
     name: "BAMBI",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.bambiayakkabi.com.tr/",
     imgUrl: "https://www.bambiayakkabi.com",
     joinUrl: "https://www.bambiayakkabi.com.tr/UyeGiris",
@@ -43,7 +45,7 @@ export const shops = [
   {
     id: 6,
     name: "ELLE",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.elleshoes.com/",
     imgUrl: "https://www.elleshoes.com/",
     joinUrl: "https://www.elleshoes.com/UyeGiris",
@@ -51,7 +53,7 @@ export const shops = [
   {
     id: 7,
     name: "POLARIS",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.instagram.com/polarisayakkabi/",
     imgUrl: "",
     joinUrl: "",
@@ -59,7 +61,7 @@ export const shops = [
   {
     id: 8,
     name: "HAMMER JACK",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.hammerjack.com/",
     imgUrl: "https://www.hammerjack.com/",
     joinUrl: "https://www.hammerjack.com/UyeGiris",
@@ -67,7 +69,7 @@ export const shops = [
   {
     id: 9,
     name: "GRAYDER",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.greyder.com.tr/",
     imgUrl: "https://www.greyder.com",
     joinUrl: "https://www.greyder.com.tr/uye?returnurl=%2fsepet",
@@ -75,7 +77,7 @@ export const shops = [
   {
     id: 10,
     name: "HOTIC",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.hotic.com.tr/",
     imgUrl: "https://www.hotic.com",
     joinUrl: "https://www.hotic.com.tr/login",
@@ -83,7 +85,7 @@ export const shops = [
   {
     id: 11,
     name: "DERIMOD",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.derimod.com.tr/",
     imgUrl: "https://www.derimod.com",
     joinUrl: "https://www.derimod.com.tr/login/?next=/",
@@ -91,7 +93,7 @@ export const shops = [
   {
     id: 12,
     name: "INCI",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.incitopuk.com.tr/",
     imgUrl: "https://www.incitopuk.com",
     joinUrl: "https://www.incitopuk.com.tr/UyeGiris",
@@ -99,7 +101,7 @@ export const shops = [
   {
     id: 13,
     name: "KINETIX",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.kinetix.com.tr/",
     imgUrl: "https://www.kinetix.com",
     joinUrl: "https://www.flo.com.tr/customer/login",
@@ -107,7 +109,7 @@ export const shops = [
   {
     id: 14,
     name: "DOCKERS",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.dockers.com.tr/",
     imgUrl: "https://www.dockers.com",
     joinUrl: "",
@@ -115,7 +117,7 @@ export const shops = [
   {
     id: 15,
     name: "VANS",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.vans.com.tr/",
     imgUrl: "https://www.vans.com",
     joinUrl: "https://www.vans.com.tr/Uye",
@@ -123,7 +125,7 @@ export const shops = [
   {
     id: 16,
     name: "LOTTO",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.xn--lottotrkiye-yhb.com/",
     imgUrl: "https://www.xn--lottotrkiye-yhb.com/",
     joinUrl: "https://www.xn--lottotrkiye-yhb.com/create_account.html",
@@ -131,7 +133,7 @@ export const shops = [
   {
     id: 17,
     name: "CONVERSE",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.converse.com.tr/",
     imgUrl: "https://www.converse.com",
     joinUrl: "https://www.converse.com.tr/users/register/",
@@ -139,7 +141,7 @@ export const shops = [
   {
     id: 18,
     name: "SALOMON",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.salomon.com.tr/",
     imgUrl: "https://www.salomon.com",
     joinUrl: "https://www.salomon.com.tr/UyeGiris",
@@ -147,7 +149,7 @@ export const shops = [
   {
     id: 19,
     name: "SKECHERS",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.skechers.com.tr/",
     imgUrl: "https://www.skechers.com",
     joinUrl: "https://www.skechers.com.tr/register",
@@ -155,7 +157,7 @@ export const shops = [
   {
     id: 20,
     name: "ASICS",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.asics.com.tr/",
     imgUrl: "https://www.asics.com",
     joinUrl: "https://www.asics.com.tr/register",
@@ -163,7 +165,7 @@ export const shops = [
   {
     id: 21,
     name: "THE NORTHFACE",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.thenorthface.com.tr/",
     imgUrl: "https://www.thenorthface.com",
     joinUrl: "https://www.thenorthface.com.tr/Uye/KayitOl",
@@ -171,7 +173,7 @@ export const shops = [
   {
     id: 22,
     name: "CEYO",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.ceyo.com.tr/",
     imgUrl: "https://www.ceyo.com",
     joinUrl: "https://www.ceyo.com.tr/ceyo-uye-kayit",
@@ -179,7 +181,7 @@ export const shops = [
   {
     id: 23,
     name: "SLAZENGER",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.slazenger.com.tr/",
     imgUrl: "https://www.slazenger.com",
     joinUrl: "https://www.slazenger.com.tr/uye-kayit",
@@ -187,7 +189,7 @@ export const shops = [
   {
     id: 24,
     name: "FLO",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.flo.com.tr/",
     imgUrl: "https://www.flo.com",
     joinUrl: "https://www.flo.com.tr/customer/login#register",
@@ -195,7 +197,7 @@ export const shops = [
   {
     id: 25,
     name: "TIMBERLEND",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.timberland.com.tr/",
     imgUrl: "https://www.timberland.com",
     joinUrl: "https://www.timberland.com.tr/uye/kayitol",
@@ -203,7 +205,7 @@ export const shops = [
   {
     id: 26,
     name: "JACK WOLFSKIN",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "www.olgar.com.tr",
     imgUrl: "www.olgar.com",
     joinUrl: "",
@@ -211,7 +213,7 @@ export const shops = [
   {
     id: 27,
     name: "AYAKKABI DUNYASI",
-    category: "obuca",
+    category: ShopsCatagoreis.SHOES,
     url: "https://www.ayakkabidunyasi.com.tr/",
     imgUrl: "https://www.ayakkabidunyasi.com",
     joinUrl: "https://www.ayakkabidunyasi.com.tr/register",
@@ -219,7 +221,7 @@ export const shops = [
   {
     id: 28,
     name: "ECANTA",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.ecanta.com.tr/",
     imgUrl: "https://www.ecanta.com",
     joinUrl: "",
@@ -227,7 +229,7 @@ export const shops = [
   {
     id: 29,
     name: "SAMSONITE",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.samsonite.com.tr/",
     imgUrl: "https://www.samsonite.com",
     joinUrl: "https://www.samsonite.com.tr/register/?next=/",
@@ -235,7 +237,7 @@ export const shops = [
   {
     id: 118,
     name: "BOYNER",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.boyner.com.tr/",
     imgUrl: "https://www.boyner.com",
     joinUrl:
@@ -244,7 +246,7 @@ export const shops = [
   {
     id: 119,
     name: "TRENDYOL",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.trendyol.com/",
     imgUrl: "https://www.trendyol.com/",
     joinUrl:
@@ -253,7 +255,7 @@ export const shops = [
   {
     id: 30,
     name: "HEPSIBURADA",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.hepsiburada.com/",
     imgUrl: "https://www.hepsiburada.com/",
     joinUrl:
@@ -262,7 +264,7 @@ export const shops = [
   {
     id: 31,
     name: "MORHIPO",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.morhipo.com/",
     imgUrl: "https://www.morhipo.com/",
     joinUrl: "https://www.morhipo.com/uyelik",
@@ -270,7 +272,7 @@ export const shops = [
   {
     id: 120,
     name: "TERGAN",
-    category: "torbe",
+    category: ShopsCatagoreis.BAGS,
     url: "https://www.tergan.com.tr/",
     imgUrl: "https://www.tergan.com",
     joinUrl: "https://www.tergan.com.tr/login.aspx",
@@ -278,7 +280,7 @@ export const shops = [
   {
     id: 32,
     name: "TEKNOSA",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.teknosa.com/",
     imgUrl: "https://www.teknosa.com",
     joinUrl: "https://www.teknosa.com/login",
@@ -286,7 +288,7 @@ export const shops = [
   {
     id: 33,
     name: "TRENDYOL",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.trendyol.com/",
     imgUrl: "https://www.trendyol.com/",
     joinUrl:
@@ -295,7 +297,7 @@ export const shops = [
   {
     id: 34,
     name: "HEPSIBURADA",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.hepsiburada.com/",
     imgUrl: "https://www.hepsiburada.com/",
     joinUrl:
@@ -304,7 +306,7 @@ export const shops = [
   {
     id: 35,
     name: "VATANBILGISAYAR",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.vatanbilgisayar.com/",
     imgUrl: "https://www.vatanbilgisayar.com/",
     joinUrl:
@@ -313,7 +315,7 @@ export const shops = [
   {
     id: 36,
     name: "MEDIAMARKT",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.mediamarkt.com.tr/",
     imgUrl: "https://www.mediamarkt.com",
     joinUrl: "EROR NEKI IZBACUJE KAD SE KLIKNE NA REGISTRACIJU",
@@ -321,7 +323,7 @@ export const shops = [
   {
     id: 37,
     name: "CEPSESUAR",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.cepsesuar.com/",
     imgUrl: "https://www.cepsesuar.com/",
     joinUrl: "https://www.cepsesuar.com/uye-ol",
@@ -329,7 +331,7 @@ export const shops = [
   {
     id: 38,
     name: "SPIGEN",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.spigen.com.tr/",
     imgUrl: "https://www.spigen.com",
     joinUrl: "https://www.spigen.com.tr/uye-ol",
@@ -337,7 +339,7 @@ export const shops = [
   {
     id: 39,
     name: "Kılıfmarketim",
-    category: "aksesoar",
+    category: ShopsCatagoreis.ACCESSORY,
     url: "https://www.kilifmarketim.com/",
     imgUrl: "https://www.kilifmarketim.com",
     joinUrl: "https://www.kilifmarketim.com/uye-ol",
@@ -345,7 +347,7 @@ export const shops = [
   {
     id: 40,
     name: "Zen",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.zenpirlanta.com/",
     imgUrl: "https://www.zenpirlanta.com",
     joinUrl: "https://www.zenpirlanta.com/uyelik_giris.php",
@@ -353,7 +355,7 @@ export const shops = [
   {
     id: 41,
     name: "Bluediomand",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.bluediamond.com.tr/",
     imgUrl: "https://www.bluediamond.com",
     joinUrl: "https://www.bluediamond.com.tr/uyelik.php?islem=uyekayit",
@@ -361,7 +363,7 @@ export const shops = [
   {
     id: 42,
     name: "Atasay",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.atasay.com/",
     imgUrl: "https://www.atasay.com",
     joinUrl: "https://www.atasay.com/users/auth/",
@@ -369,7 +371,7 @@ export const shops = [
   {
     id: 43,
     name: "Altınbaş",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.altinbas.com/",
     imgUrl: "https://www.altinbas.com",
     joinUrl: "",
@@ -377,7 +379,7 @@ export const shops = [
   {
     id: 44,
     name: "Trendyol",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.trendyol.com/",
     imgUrl: "https://www.trendyol.com/",
     joinUrl: "https://www.trendyol.com/",
@@ -385,7 +387,7 @@ export const shops = [
   {
     id: 45,
     name: "Takıbu",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://takibu.com/",
     imgUrl: "https://takibu.com",
     joinUrl: "https://takibu.com/user/login",
@@ -393,7 +395,7 @@ export const shops = [
   {
     id: 46,
     name: "Takıştır",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.takistir.com.tr/",
     imgUrl: "https://www.takistir.com",
     joinUrl: "https://www.takistir.com.tr/UyeGiris",
@@ -401,7 +403,7 @@ export const shops = [
   {
     id: 47,
     name: "Kozenbijoux",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.kozenbijoux.com/",
     imgUrl: "https://www.kozenbijoux.com",
     joinUrl: "https://www.kozenbijoux.com/hesabim/",
@@ -409,7 +411,7 @@ export const shops = [
   {
     id: 48,
     name: "Tesbihane",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.tesbihane.com/",
     imgUrl: "https://www.tesbihane.com",
     joinUrl: "https://www.tesbihane.com/uye-kayit",
@@ -417,7 +419,7 @@ export const shops = [
   {
     id: 49,
     name: "Tesbihevim",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.tesbihevim.com/",
     imgUrl: "https://www.tesbihevim.com",
     joinUrl: "https://www.tesbihevim.com/uye-ol",
@@ -425,7 +427,7 @@ export const shops = [
   {
     id: 50,
     name: "Aniyuzuk",
-    category: "licni",
+    category: ShopsCatagoreis.PERSONAL,
     url: "https://www.aniyuzuk.com/",
     imgUrl: "https://www.aniyuzuk.com",
     joinUrl: "https://www.aniyuzuk.com/uye-kayit",
@@ -433,7 +435,7 @@ export const shops = [
   {
     id: 51,
     name: "Atasun",
-    category: "naocale",
+    category: ShopsCatagoreis.GLASSES,
     url: "www.atasunoptik.com.tr",
     imgUrl: "www.atasunoptik.com",
     joinUrl: "www.atasunoptik.com.tr/Uye",
@@ -441,7 +443,7 @@ export const shops = [
   {
     id: 52,
     name: "Opmar",
-    category: "naocale",
+    category: ShopsCatagoreis.GLASSES,
     url: "www.opmar.com.tr",
     imgUrl: "www.opmar.com",
     joinUrl: "www.opmar.com.tr/UyeOl",
@@ -449,7 +451,7 @@ export const shops = [
   {
     id: 53,
     name: "Shopsolaris",
-    category: "naocale",
+    category: ShopsCatagoreis.GLASSES,
     url: "www.shopsolaris.com",
     imgUrl: "www.shopsolaris.com",
     joinUrl: "www.shopsolaris.com/customer/account/login",
@@ -457,7 +459,7 @@ export const shops = [
   {
     id: 54,
     name: "Elitoptik",
-    category: "naocale",
+    category: ShopsCatagoreis.GLASSES,
     url: "www.elitoptik.com.tr",
     imgUrl: "www.elitoptik.com",
     joinUrl: "www.elitoptik.com.tr/UyeOl",
@@ -465,7 +467,7 @@ export const shops = [
   {
     id: 55,
     name: "sunglasshut",
-    category: "naocale",
+    category: ShopsCatagoreis.GLASSES,
     url: "www.sunglasshut.com/uk",
     imgUrl: "www.sunglasshut.com",
     joinUrl: "www.sunglasshut.com/uk/myaccount/login?redirect=%2Fmyaccount",
@@ -473,7 +475,7 @@ export const shops = [
   {
     id: 56,
     name: "Garajmarketim",
-    category: "auto",
+    category: ShopsCatagoreis.CARS,
     url: "www.garajmarketim.com",
     imgUrl: "www.garajmarketim.com",
     joinUrl: "www.garajmarketim.com/UyeOl",
@@ -481,7 +483,7 @@ export const shops = [
   {
     id: 57,
     name: "Otoaksesuar",
-    category: "auto",
+    category: ShopsCatagoreis.CARS,
     url: "www.otoaksesuar.com",
     imgUrl: "www.otoaksesuar.com",
     joinUrl: "www.otoaksesuar.com/uye-kayit",
@@ -489,7 +491,7 @@ export const shops = [
   {
     id: 58,
     name: "Aksoytuning",
-    category: "auto",
+    category: ShopsCatagoreis.CARS,
     url: "www.aksoytuning.com",
     imgUrl: "www.aksoytuning.com",
     joinUrl: "www.aksoytuning.com/ac/register",
@@ -497,7 +499,7 @@ export const shops = [
   {
     id: 59,
     name: "Hepsiburada",
-    category: "auto",
+    category: ShopsCatagoreis.CARS,
     url: "www.hepsiburada.com/oto-aksesuarlari-c-2147483631",
     imgUrl: "www.hepsiburada.com",
     joinUrl:
@@ -506,7 +508,7 @@ export const shops = [
   {
     id: 60,
     name: "Trendyol",
-    category: "auto",
+    category: ShopsCatagoreis.CARS,
     url: "www.trendyol.com/otomobil-ve-motosiklet-x-c105777",
     imgUrl: "www.trendyol.com",
     joinUrl: "https://www.trendyol.com/",
@@ -514,7 +516,7 @@ export const shops = [
   {
     id: 61,
     name: "Mediamarkt",
-    category: "elektronika",
+    category: ShopsCatagoreis.ELECTRONICS,
     url: "www.mediamarkt.com.tr",
     imgUrl: "www.mediamarkt.com",
     joinUrl:
@@ -523,7 +525,7 @@ export const shops = [
   {
     id: 62,
     name: "Teknosa",
-    category: "elektronika",
+    category: ShopsCatagoreis.ELECTRONICS,
     url: "www.teknosa.com",
     imgUrl: "www.teknosa.com",
     joinUrl: "www.teknosa.com/login",
@@ -531,7 +533,7 @@ export const shops = [
   {
     id: 63,
     name: "Vatanbilgisayar",
-    category: "elektronika",
+    category: ShopsCatagoreis.ELECTRONICS,
     url: "www.vatanbilgisayar.com",
     imgUrl: "www.vatanbilgisayar.com",
     joinUrl: "www.vatanbilgisayar.com/login/?returnUrl=%2F&logtab=signin",
@@ -539,7 +541,7 @@ export const shops = [
   {
     id: 64,
     name: "Evkur",
-    category: "elektronika",
+    category: ShopsCatagoreis.ELECTRONICS,
     url: "www.evkur.com.tr",
     imgUrl: "www.evkur.com",
     joinUrl: "",
@@ -547,7 +549,7 @@ export const shops = [
   {
     id: 65,
     name: "GRATIS",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.gratis.com",
     imgUrl: "www.gratis.com",
     joinUrl: "www.gratis.com/sign-up",
@@ -555,7 +557,7 @@ export const shops = [
   {
     id: 66,
     name: "WATSONS",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.watsons.com.tr",
     imgUrl: "www.watsons.com",
     joinUrl: "www.watsons.com.tr/register",
@@ -563,7 +565,7 @@ export const shops = [
   {
     id: 67,
     name: "ROSSMANN",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.rossmann.com.tr",
     imgUrl: "www.rossmann.com",
     joinUrl: "www.rossmann.com.tr/customer/account/create/",
@@ -571,7 +573,7 @@ export const shops = [
   {
     id: 68,
     name: "PLATIN",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.platin.com.tr",
     imgUrl: "www.platin.com",
     joinUrl: "www.platin.com.tr/UyeOl",
@@ -579,7 +581,7 @@ export const shops = [
   {
     id: 69,
     name: "SEPHORA",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.sephora.com.tr",
     imgUrl: "www.sephora.com",
     joinUrl: "www.sephora.com.tr/giris-yap",
@@ -587,7 +589,7 @@ export const shops = [
   {
     id: 70,
     name: "MAC",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.maccosmetics.com.tr",
     imgUrl: "www.maccosmetics.com",
     joinUrl: "www.maccosmetics.com.tr/account/registration.tmpl",
@@ -595,7 +597,7 @@ export const shops = [
   {
     id: 71,
     name: "THE BODY SHOP",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.thebodyshop.com.tr",
     imgUrl: "www.thebodyshop.com",
     joinUrl: "www.thebodyshop.com.tr/UyeGiris",
@@ -603,7 +605,7 @@ export const shops = [
   {
     id: 72,
     name: "AVON",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "kozmetik.avon.com.tr/?gclid=CjwKCAjwiOCgBhAgEiwAjv5whNUvk0uBUZDJqun06PwbzxmF5nvD7wjntwNABgtwH583O0ufw3lvbBoCfacQAvD_BwE&gclsrc=aw.ds",
     imgUrl: "kozmetik.avon.com",
     joinUrl: "kozmetik.avon.com.tr/musteri/oturum-ac/",
@@ -611,7 +613,7 @@ export const shops = [
   {
     id: 73,
     name: "COSMETICA",
-    category: "kozmetika",
+    category: ShopsCatagoreis.COSMETICS,
     url: "www.cosmetica.com.tr",
     imgUrl: "www.cosmetica.com",
     joinUrl: "www.cosmetica.com.tr/login.aspx?signup=true",
@@ -619,7 +621,7 @@ export const shops = [
   {
     id: 74,
     name: "IKEA",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.ikea.com.tr",
     imgUrl: "www.ikea.com",
     joinUrl: "www.ikea.com.tr/uyelik/yeni-uyelik",
@@ -627,7 +629,7 @@ export const shops = [
   {
     id: 75,
     name: "TepeHome",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.tepehome.com.tr",
     imgUrl: "www.tepehome.com",
     joinUrl: "www.tepehome.com.tr/uye-kayit",
@@ -635,7 +637,7 @@ export const shops = [
   {
     id: 76,
     name: "MUDO",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.mudo.com.tr/?gclid=CjwKCAjwiOCgBhAgEiwAjv5whPg6QnbWfub-Q6Rv6ej-fDrA3IaiDuE0Dp8zfz6Nbs1-b7WGEsR_kRoCCVkQAvD_BwE",
     imgUrl: "www.mudo.com",
     joinUrl: "www.mudo.com.tr/register/?next=/",
@@ -643,7 +645,7 @@ export const shops = [
   {
     id: 77,
     name: "Englishhome",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.englishhome.com",
     imgUrl: "www.englishhome.com",
     joinUrl: "www.englishhome.com/login/?next=/",
@@ -651,7 +653,7 @@ export const shops = [
   {
     id: 78,
     name: "Özdilek",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.ozdilek.com.tr",
     imgUrl: "www.ozdilek.com",
     joinUrl: "www.ozdilekteyim.com/magaza/login/register",
@@ -659,7 +661,7 @@ export const shops = [
   {
     id: 79,
     name: "Karaca",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.karaca.com",
     imgUrl: "www.karaca.com",
     joinUrl: "www.karaca.com/account/login",
@@ -667,7 +669,7 @@ export const shops = [
   {
     id: 80,
     name: "Koçtaş",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.koctas.com.tr",
     imgUrl: "www.koctas.com",
     joinUrl: "www.koctas.com.tr/sregister/register",
@@ -675,7 +677,7 @@ export const shops = [
   {
     id: 81,
     name: "Tekzen",
-    category: "kucni aparati",
+    category: ShopsCatagoreis.HOUSEHOLD_APPLIANCES,
     url: "www.tekzen.com.tr",
     imgUrl: "www.tekzen.com",
     joinUrl: "www.tekzen.com.tr/giris?type=kayit",
@@ -683,7 +685,7 @@ export const shops = [
   {
     id: 82,
     name: "ZARA",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.zara.com/tr/",
     imgUrl: "https://www.zara.com",
     joinUrl: "https://www.zara.com/tr/en/signup",
@@ -691,7 +693,7 @@ export const shops = [
   {
     id: 83,
     name: "LC WAIKIKI",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.lcwaikiki.com/tr-TR/TR",
     imgUrl: "https://www.lcwaikiki.com",
     joinUrl: "https://www.lcwaikiki.com/tr-TR/TR/uye-ol",
@@ -699,7 +701,7 @@ export const shops = [
   {
     id: 84,
     name: "MAVI",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "www.mavi.com",
     imgUrl: "www.mavi.com",
     joinUrl: " https://www.mavi.com/register",
@@ -707,7 +709,7 @@ export const shops = [
   {
     id: 85,
     name: "MANGO",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://shop.mango.com/tr/kadin",
     imgUrl: "https://shop.mango.com/",
     joinUrl:
@@ -716,7 +718,7 @@ export const shops = [
   {
     id: 86,
     name: "POLO",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://tr.uspoloassn.com/",
     imgUrl: "https://tr.uspoloassn.com",
     joinUrl: "https://tr.uspoloassn.com/register/",
@@ -724,7 +726,7 @@ export const shops = [
   {
     id: 87,
     name: "DAMAT",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.dsdamat.com/",
     imgUrl: "https://www.dsdamat.com",
     joinUrl: "https://www.dsdamat.com/users/register/",
@@ -732,7 +734,7 @@ export const shops = [
   {
     id: 88,
     name: "PULL AND BEAR",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "www.pullandbear.com/tr",
     imgUrl: "www.pullandbear.com",
     joinUrl: "https://www.pullandbear.com/tr/login.html",
@@ -740,7 +742,7 @@ export const shops = [
   {
     id: 89,
     name: "BERSHKA",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.bershka.com/tr/",
     imgUrl: "https://www.bershka.com",
     joinUrl: "",
@@ -748,7 +750,7 @@ export const shops = [
   {
     id: 90,
     name: "BEYMEN",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.beymen.com/",
     imgUrl: "https://www.beymen.com",
     joinUrl:
@@ -757,7 +759,7 @@ export const shops = [
   {
     id: 91,
     name: "DEFACTO",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.defacto.com.tr/",
     imgUrl: "https://www.defacto.com",
     joinUrl: " https://www.defacto.com.tr/Login?newUser=True&ReturnUrl=%2F",
@@ -765,7 +767,7 @@ export const shops = [
   {
     id: 92,
     name: "MUDO",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.mudo.com.tr/",
     imgUrl: "https://www.mudo.com",
     joinUrl: "https://www.mudo.com.tr/register/",
@@ -773,7 +775,7 @@ export const shops = [
   {
     id: 93,
     name: "KOTON",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.koton.com/",
     imgUrl: "https://www.koton.com",
     joinUrl: "https://www.koton.com/users/auth/",
@@ -781,7 +783,7 @@ export const shops = [
   {
     id: 94,
     name: "TERGAN",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.tergan.com.tr/",
     imgUrl: "https://www.tergan.com",
     joinUrl: "https://www.tergan.com.tr/login.aspx",
@@ -789,7 +791,7 @@ export const shops = [
   {
     id: 95,
     name: "IPEKYOL",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.ipekyol.com.tr/",
     imgUrl: "https://www.ipekyol.com",
     joinUrl: "https://www.ipekyol.com.tr/giris?returnUrl=&member=signup",
@@ -797,7 +799,7 @@ export const shops = [
   {
     id: 96,
     name: "KIGILI",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.kigili.com/",
     imgUrl: "https://www.kigili.com",
     joinUrl: "https://www.kigili.com/register/?next=/",
@@ -805,7 +807,7 @@ export const shops = [
   {
     id: 97,
     name: "Ebebek",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.e-bebek.com/",
     imgUrl: "https://www.e-bebek.com",
     joinUrl: "https://www.e-bebek.com/login",
@@ -813,7 +815,7 @@ export const shops = [
   {
     id: 98,
     name: "Joker",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.joker.com.tr/",
     imgUrl: "https://www.joker.com",
     joinUrl: "https://www.joker.com.tr/kullanici/kayit",
@@ -821,7 +823,7 @@ export const shops = [
   {
     id: 99,
     name: "Civilim",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.civilim.com/",
     imgUrl: "https://www.civilim.com",
     joinUrl: "https://www.civilim.com/login.aspx",
@@ -829,7 +831,7 @@ export const shops = [
   {
     id: 100,
     name: "AVVA",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.avva.com.tr/",
     imgUrl: "https://www.avva.com",
     joinUrl: "https://www.avva.com.tr/",
@@ -837,7 +839,7 @@ export const shops = [
   {
     id: 101,
     name: "SARAR",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://sarar.com/",
     imgUrl: "https://sarar.com",
     joinUrl: "https://sarar.com/uye-kayit",
@@ -845,7 +847,7 @@ export const shops = [
   {
     id: 102,
     name: "LEVI’S",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.levis.com.tr/",
     imgUrl: "https://www.levis.com.tr",
     joinUrl: "https://www.levis.com.tr/",
@@ -853,7 +855,7 @@ export const shops = [
   {
     id: 103,
     name: "CALVIN KLEIN",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://tr.calvinklein.com/",
     imgUrl: "https://tr.calvinklein.com",
     joinUrl: "https://tr.calvinklein.com/",
@@ -861,7 +863,7 @@ export const shops = [
   {
     id: 104,
     name: "LOFT",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.loft.com.tr/tr-TR",
     imgUrl: "https://www.loft.com",
     joinUrl: "https://www.loft.com.tr/tr-TR/auth/register",
@@ -869,7 +871,7 @@ export const shops = [
   {
     id: 105,
     name: "JACK AND JONES",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "www.jackjones.com.tr",
     imgUrl: "www.jackjones.com",
     joinUrl: "https://jackjones.com.tr/uye-ol",
@@ -877,7 +879,7 @@ export const shops = [
   {
     id: 106,
     name: "LACOSTE",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.lacoste.com.tr/",
     imgUrl: "https://www.lacoste.com",
     joinUrl: "https://www.lacoste.com.tr/register/",
@@ -885,7 +887,7 @@ export const shops = [
   {
     id: 107,
     name: "GAP",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://gap.com.tr/",
     imgUrl: "https://gap.com",
     joinUrl: "https://gap.com.tr/login/?next=/ ",
@@ -893,7 +895,7 @@ export const shops = [
   {
     id: 108,
     name: "TOMMY HILFIGER",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://tr.tommy.com/",
     imgUrl: "https://tr.tommy.com",
     joinUrl: "https://tr.tommy.com/ ",
@@ -901,7 +903,7 @@ export const shops = [
   {
     id: 109,
     name: "ARMINE",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.armine.com/",
     imgUrl: "https://www.armine.com",
     joinUrl: "https://www.armine.com/UyeOl ",
@@ -909,7 +911,7 @@ export const shops = [
   {
     id: 110,
     name: "TEKBIR",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.tekbir.com.tr/",
     imgUrl: "https://www.tekbir.com",
     joinUrl: "https://www.tekbir.com.tr/ ",
@@ -917,7 +919,7 @@ export const shops = [
   {
     id: 111,
     name: "AKER",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.aker.com.tr/",
     imgUrl: "https://www.aker.com",
     joinUrl: "https://www.aker.com.tr/uye-kayit",
@@ -925,7 +927,7 @@ export const shops = [
   {
     id: 112,
     name: "PENTİ",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.penti.com/tr/",
     imgUrl: "https://www.penti.com",
     joinUrl: "https://www.penti.com/tr/register ",
@@ -933,7 +935,7 @@ export const shops = [
   {
     id: 113,
     name: "H and M",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www2.hm.com/tr_tr/index.html",
     imgUrl: "https://www2.hm.com",
     joinUrl: "https://www2.hm.com/tr_tr/index.html ",
@@ -941,7 +943,7 @@ export const shops = [
   {
     id: 114,
     name: "ADIDAS",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.adidas.com.tr/tr",
     imgUrl: "https://www.adidas.com",
     joinUrl: "https://www.adidas.com.tr/tr ",
@@ -949,7 +951,7 @@ export const shops = [
   {
     id: 115,
     name: "NIKE",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.nike.com/tr",
     imgUrl: "https://www.nike.com",
     joinUrl:
@@ -958,7 +960,7 @@ export const shops = [
   {
     id: 116,
     name: "PUMA",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://tr.puma.com/",
     imgUrl: "https://tr.puma.com",
     joinUrl: "https://tr.puma.com/customer/account/login/ ",
@@ -966,7 +968,7 @@ export const shops = [
   {
     id: 117,
     name: "REEBOK",
-    category: "odjeca",
+    category: ShopsCatagoreis.CLOTHES,
     url: "https://www.reebok.com.tr/",
     imgUrl: "https://www.reebok.com",
     joinUrl: "https://www.reebok.com.tr/Uye/signin ",
