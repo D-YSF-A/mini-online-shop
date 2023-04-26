@@ -259,7 +259,7 @@ const Shops = () => {
                     </div>
                     <div className="flex flex-1 flex-col space-y-4 p-4 max-h-[152px]">
                       <h3 className="text-sm font-medium text-gray-900">
-                        <a href={shop.url}>
+                        <a href={shop.url} target="_blank">
                           <span
                             aria-hidden="true"
                             className="absolute inset-0"
