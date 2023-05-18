@@ -1,7 +1,7 @@
-import { Banner } from "./components/sections/Banner";
-import { HowToBuy } from "./components/sections/HowToBuy";
-import { IntroVideo } from "./components/sections/IntroVideo";
-import { ProductList } from "./components/sections/ProductList";
+import { Banner } from "../components/sections/Banner";
+import { HowToBuy } from "../components/sections/HowToBuy";
+import { IntroVideo } from "../components/sections/IntroVideo";
+import { ProductList } from "../components/sections/ProductList";
 
 const Home = () => {
   return (

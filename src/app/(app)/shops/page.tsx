@@ -4,8 +4,8 @@ import { ChevronDownIcon, PlusIcon } from "@heroicons/react/20/solid";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
-import { ShopsCatagoreis } from "../libs/helpers/catagories.helpers";
-import { shops } from "../libs/options/shops.options";
+import { ShopsCatagoreis } from "../../libs/helpers/catagories.helpers";
+import { shops } from "../../libs/options/shops.options";
 
 const description =
   "Moze ovdje ici neki tekst, ili opis o radnji, a moze bez icega!!";
