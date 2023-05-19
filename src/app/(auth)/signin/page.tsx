@@ -21,9 +21,11 @@ const SignIn = () => {
       });
     },
     onSuccess(res) {
-      router.push('/shops');
+      console.log('uspio login');
+      router.push('/');
     },
     onError: (axiosError) => {
+      console.log('pao Login', axiosError);
       // toast.error(`Signup not successful`, {
       //   autoClose: 3000,
       //   hideProgressBar: true,

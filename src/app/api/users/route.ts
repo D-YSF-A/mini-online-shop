@@ -73,13 +73,31 @@ export async function POST(request: Request) {
     await request.json();
   switch (request.headers.get('req-type')) {
     case 'create':
-      return create({ name, surname, phone, email, address, password });
-    case 'login':
-      return login({ email, password });
+      const user = await create({
+        name,
+        surname,
+        phone,
+        email,
+        address,
+        password,
+      });
+      if (user) {
+        return new Response('User Created', {
+          status: 200,
+        });
+      } else return Error('Create User Failed');
+    case 'login': {
+      const jwt = await login({ email, password });
+      if (jwt) {
+        return new Response('User Logged In', {
+          status: 200,
+        });
+      } else return Error('Login Failed');
+    }
     case 'update':
       return null;
     default:
-      return new Response('user created', {
+      return new Response('', {
         status: 200,
       });
   }
