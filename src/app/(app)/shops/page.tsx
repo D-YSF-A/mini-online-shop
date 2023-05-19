@@ -3,7 +3,6 @@ import { Dialog, Disclosure, Transition } from '@headlessui/react';
 import { ChevronDownIcon, PlusIcon } from '@heroicons/react/20/solid';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
-import Link from 'next/link';
 import { Fragment, useEffect, useState } from 'react';
 import { ShopsCatagoreis } from '../../libs/helpers/catagories.helpers';
 import { shops } from '../../libs/options/shops.options';
@@ -260,13 +259,13 @@ const Shops = () => {
                     </div>
                     <div className="flex flex-1 flex-col space-y-4 p-4 max-h-[152px]">
                       <h3 className="text-sm font-medium text-gray-900">
-                        <Link href={shop.url} target="_blank">
+                        <a href={shop.url} target="_blank">
                           <span
                             aria-hidden="true"
                             className="absolute inset-0"
                           />
                           {shop.name}
-                        </Link>
+                        </a>
                       </h3>
                       <p className="text-sm text-gray-500">{description}</p>
                       <div className="flex flex-1 flex-row justify-between">
@@ -275,13 +274,13 @@ const Shops = () => {
                         </p>
                         {/* <p className="text-sm font-medium text-gray-900">
                           {shop.joinUrl && (
-                            <Link href={shop.joinUrl}>
+                            <a href={shop.joinUrl}>
                               <span
                                 aria-hidden="true"
                                 className="absolute inset-0"
                               />
                               Uclani se
-                            </Link>
+                            </a>
                           )}
                         </p> */}
                       </div>

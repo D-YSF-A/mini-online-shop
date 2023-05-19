@@ -1,6 +1,5 @@
 'use client';
 import { navBarOptions } from '@/app/libs/options/navbar.options';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 function classNames(...classes: string[]) {
@@ -12,7 +11,7 @@ const NavBarOptions = () => {
   return (
     <div className="hidden h-16 lg:flex sm:gap-8">
       {navBarOptions.map((item) => (
-        <Link
+        <a
           key={item.name}
           href={item.href}
           className={classNames(
@@ -24,7 +23,7 @@ const NavBarOptions = () => {
           aria-current={item.current ? 'page' : undefined}
         >
           {item.name}
-        </Link>
+        </a>
       ))}
     </div>
   );

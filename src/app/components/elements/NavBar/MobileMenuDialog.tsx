@@ -2,7 +2,6 @@ import { navBarOptions } from '@/app/libs/options/navbar.options';
 import { Dialog, Disclosure } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 type Props = {
@@ -26,7 +25,7 @@ const MobileMenuDialog = ({ mobileMenuOpen, setMobileMenuOpen }: Props) => {
       <div className="fixed inset-0 z-10" />
       <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white xy-2 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div className="flex items-center pr-2.5 justify-between border-b-[1px]">
-          <Link href="#">
+          <a href="#">
             <div className="h-[76px] w-[180px] relative top-0">
               <Image
                 src="/images/lightLogo.png"
@@ -35,7 +34,7 @@ const MobileMenuDialog = ({ mobileMenuOpen, setMobileMenuOpen }: Props) => {
                 className="object-contain"
               />
             </div>
-          </Link>
+          </a>
           <button
             type="button"
             className="inline-flex items-center justify-center rounded-md p-2  text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#db5d3c] focus:ring-offset-2"
