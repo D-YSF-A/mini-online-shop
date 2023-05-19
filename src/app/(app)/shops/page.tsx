@@ -1,22 +1,23 @@
-"use client";
-import { Dialog, Disclosure, Transition } from "@headlessui/react";
-import { ChevronDownIcon, PlusIcon } from "@heroicons/react/20/solid";
-import { XMarkIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
-import { Fragment, useEffect, useState } from "react";
-import { ShopsCatagoreis } from "../../libs/helpers/catagories.helpers";
-import { shops } from "../../libs/options/shops.options";
+'use client';
+import { Dialog, Disclosure, Transition } from '@headlessui/react';
+import { ChevronDownIcon, PlusIcon } from '@heroicons/react/20/solid';
+import { XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Fragment, useEffect, useState } from 'react';
+import { ShopsCatagoreis } from '../../libs/helpers/catagories.helpers';
+import { shops } from '../../libs/options/shops.options';
 
 const description =
-  "Moze ovdje ici neki tekst, ili opis o radnji, a moze bez icega!!";
+  'Moze ovdje ici neki tekst, ili opis o radnji, a moze bez icega!!';
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
 
 const useFilteredShops = (): [
   typeof shops,
-  (selectedCategories: ShopsCatagoreis[]) => void
+  (selectedCategories: ShopsCatagoreis[]) => void,
 ] => {
   const [filteredShops, setFilteredShops] = useState(shops);
 
@@ -24,7 +25,7 @@ const useFilteredShops = (): [
     let filtered = shops;
     if (selectedCategories.length > 0) {
       filtered = shops.filter((shop) =>
-        selectedCategories.includes(shop.category)
+        selectedCategories.includes(shop.category),
       );
     }
     setFilteredShops(filtered);
@@ -42,7 +43,7 @@ const Shops = () => {
       value: category,
       label: category,
       checked: false,
-    }))
+    })),
   );
 
   const [filteredShops, handleCategoryChange] = useFilteredShops();
@@ -60,8 +61,8 @@ const Shops = () => {
     const value = e.target.value;
     setCategoryOptions(
       categoryOptions.map((option) =>
-        option.value === value ? { ...option, checked } : option
-      )
+        option.value === value ? { ...option, checked } : option,
+      ),
     );
   };
 
@@ -128,8 +129,8 @@ const Shops = () => {
                               <span className="ml-6 flex h-7 items-center">
                                 <ChevronDownIcon
                                   className={classNames(
-                                    open ? "-rotate-180" : "rotate-0",
-                                    "h-5 w-5 transform"
+                                    open ? '-rotate-180' : 'rotate-0',
+                                    'h-5 w-5 transform',
                                   )}
                                   aria-hidden="true"
                                 />
@@ -259,13 +260,13 @@ const Shops = () => {
                     </div>
                     <div className="flex flex-1 flex-col space-y-4 p-4 max-h-[152px]">
                       <h3 className="text-sm font-medium text-gray-900">
-                        <a href={shop.url} target="_blank">
+                        <Link href={shop.url} target="_blank">
                           <span
                             aria-hidden="true"
                             className="absolute inset-0"
                           />
                           {shop.name}
-                        </a>
+                        </Link>
                       </h3>
                       <p className="text-sm text-gray-500">{description}</p>
                       <div className="flex flex-1 flex-row justify-between">
@@ -274,13 +275,13 @@ const Shops = () => {
                         </p>
                         {/* <p className="text-sm font-medium text-gray-900">
                           {shop.joinUrl && (
-                            <a href={shop.joinUrl}>
+                            <Link href={shop.joinUrl}>
                               <span
                                 aria-hidden="true"
                                 className="absolute inset-0"
                               />
                               Uclani se
-                            </a>
+                            </Link>
                           )}
                         </p> */}
                       </div>

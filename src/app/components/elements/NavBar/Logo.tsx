@@ -1,7 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Logo = () => (
-  <a href="/" className="-m-1.5">
+  <Link href="/" className="-m-1.5">
     <div className="h-[76px] w-[180px] relative top-0">
       <Image
         src="/images/lightLogo.png"
@@ -10,7 +11,7 @@ const Logo = () => (
         className="object-contain"
       />
     </div>
-  </a>
+  </Link>
 );
 
 export default Logo;

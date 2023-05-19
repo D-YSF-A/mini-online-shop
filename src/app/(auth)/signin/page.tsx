@@ -1,26 +1,27 @@
-"use client";
-import { DBUserApi } from "@/app/libs/dto";
-import axios from "axios";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-import { useMutation } from "react-query";
+'use client';
+import { DBUserApi } from '@/app/libs/dto';
+import axios from 'axios';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useState } from 'react';
+import { useMutation } from 'react-query';
 
 const SignIn = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const router = useRouter();
 
   const mutation = useMutation({
-    mutationFn: (data: DBUserApi["create"]["request"]) => {
-      return axios.post("/api/users", data, {
-        headers: { "req-type": "login" },
+    mutationFn: (data: DBUserApi['create']['request']) => {
+      return axios.post('/api/users', data, {
+        headers: { 'req-type': 'login' },
       });
     },
     onSuccess(res) {
-      router.push("/shops");
+      router.push('/shops');
     },
     onError: (axiosError) => {
       // toast.error(`Signup not successful`, {
@@ -50,7 +51,7 @@ const SignIn = () => {
       // setErrorMessage("");
     } catch (error) {
       console.error(error);
-      setErrorMessage("Error login");
+      setErrorMessage('Error login');
     }
   };
 
@@ -117,12 +118,12 @@ const SignIn = () => {
               />
             </div>
             <div className="text-sm flex justify-end">
-              <a
+              <Link
                 href="/emailConfirmation"
                 className="font-semibold text-[#ff6139] hover:text-[#ff6d48]"
               >
                 Zaboravili ste lozinku?
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -137,13 +138,13 @@ const SignIn = () => {
         </form>
 
         <p className="mt-10 text-center text-sm text-gray-500">
-          Niste član?{" "}
-          <a
+          Niste član?{' '}
+          <Link
             href="/signup"
             className="font-semibold leading-6 hover:text-[#ff9a81] text-[#ff6d48]"
           >
             Kreirajte svoj račun ovdje
-          </a>
+          </Link>
         </p>
       </div>
     </div>

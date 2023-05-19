@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface Props {
   name: string;
@@ -20,10 +21,10 @@ export const Card = (itemProps: Props) => {
       </div>
       <div>
         <h3 className="text-sm text-gray-700">
-          <a href={itemProps.url} target="_blank">
+          <Link href={itemProps.url} target="_blank">
             <span aria-hidden="true" className="absolute inset-0" />
             {itemProps.name}
-          </a>
+          </Link>
         </h3>
         <p className="mt-1 text-sm text-gray-500">{itemProps.category}</p>
       </div>
